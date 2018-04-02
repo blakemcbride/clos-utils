@@ -6,7 +6,7 @@
 ;        blake@mcbride.name
 ;        http://blake.mcbride.name
 ;
-;  Version / Release 8/6/2008
+;  Version / Release 4/1/2018
 ;
 ;  Donated to the public domain.
 
@@ -21,6 +21,8 @@
 
 #+sbcl           (defmethod sb-mop:validate-superclass ((class metaclass) (superclass standard-class)) t)
 #+(or cmu gcl)   (defmethod pcl:validate-superclass ((class metaclass) (superclass standard-class)) t)
+#+abcl           (defmethod mop:validate-superclass ((class metaclass) (superclass standard-class)) t)
+#+ccl            (defmethod ccl:validate-superclass ((class metaclass) (superclass standard-class)) t)
 
 (defmacro defclass2 (class-name super-class-list class-variables instance-variables)
   (flet ((add-meta (sym)
