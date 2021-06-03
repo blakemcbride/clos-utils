@@ -3,8 +3,8 @@ Code to make Common Lisp CLOS work like Smalltalk
 
 Written by:
       Blake McBride
-      blake@mcbride.name
-      http://blake.mcbride.name
+      blake@mcbridemail.com
+      https://github.com/blakemcbride/clos-utils
 
 Version / Release 4/1/2018
 

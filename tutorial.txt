@@ -1,7 +1,7 @@
 
 CLOS Tutorial when used with the clos-utils.lisp package.
 
-Written by Blake McBride (blake@mcbride.name)
+Written by Blake McBride (blake@mcbridemail.com)
 
 This tutorial assumes you know OO concepts coming from the Smalltalk,
 Objective-C, C++, Java, or C# world.  It also assumes you have a
